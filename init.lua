@@ -1,8 +1,3 @@
--- ======================================================================
--- Neovim Config: Aesthetic + GPU-Accelerated IDE (Better than VSCode)
--- Arch Linux + Hyprland optimized
--- ======================================================================
-
 -- ----------------------------------------------------------------------
 -- Plugin Manager (Lazy.nvim)
 -- ----------------------------------------------------------------------
@@ -52,10 +47,7 @@ require("lazy").setup({
   { "L3MON4D3/LuaSnip" },
   { "saadparwaiz1/cmp_luasnip" },
 
-  -- AI autocomplete (Codeium)
-  { "Exafunction/codeium.vim" },
-
-  -- ========== Aesthetic / UX ==========
+  -- ========== UX ==========
   { "folke/noice.nvim", dependencies = { "MunifTanjim/nui.nvim", "rcarriga/nvim-notify" } },
   { "folke/which-key.nvim" },
   { "goolord/alpha-nvim" }, -- Dashboard
